@@ -1,9 +1,21 @@
-# Title: Summary, imperative, start upper case, don't end with a period
+# <type>: Summary, imperative, start upper case, don't end with a period
 # No more than 50 chars. #### 50 chars is here:  #
+# Types are:
+# feat: a new feature is introduced
+# fix: a bug fix
+# chore: change that does not relate to fix or feat and don't modify the source code or test files
+# refactor: refactored code (does not fix code or adds a feature)
+# docs: updates the documentation or markdown files
+# style: changes the formatting of the code, but not the code itself
+# test: includes new tests or correcting previous tests
+# perf: code performance changes, not adding new features, not refactoring code
+# ci: changes to your continious integration related files
+# build: changes that affect the build system or external dependencies
+# revert: changes back to a previous commit
 
 # Remember blank line between title and body.
 
-# Body: Explain *what* and *why* (not *how*). Include task ID (Jira issue).
+# Body: Explain *what* and *why* (not *how*). Include task ID (ticket number).
 # Wrap at 72 chars. ################################## which is here:  #
 
 
